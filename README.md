@@ -12,4 +12,4 @@ How to get:
 ===========
 Currently I do not supply this mod by itself, but if you know how to compile it you are free to use it. (Latest Version)
 
-If you want the mod pack this is included in please fell free to get it at: http://www.technicpack.net/modpack/details/tmacs-server-modpack.252464 (A little outdated, Stable Version)
+If you want the mod pack this is included in please feel free to get it at: http://www.technicpack.net/modpack/details/tmacs-server-modpack.252464 (A little outdated, Stable Version)
