@@ -1,9 +1,6 @@
 Ported-Blocks
 =============
 
-Description
-=============
-
 This pack includes ports of blocks from MoreMaterials Content Packs.
 MoreMaterials is a Spoutcraft Plugin located at: http://spoutcraft.org/resources/morematerials.3/
 
