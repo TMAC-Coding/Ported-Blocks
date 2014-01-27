@@ -10,6 +10,8 @@ Content Packs Currently included:
 
 How to get:
 ===========
-You can either compile it yourself (Latest Version) or you can get it through releases on github (A little outdate, Stable Version).
+You can either compile it yourself (Latest Version) (Must use forge for 1.6.4, have not tested with forge for 1.7.x)
+
+or you can get it through releases on github (A little outdate, Stable Version).
 
 If you want the mod pack this is included in please feel free to get it at: http://www.technicpack.net/modpack/details/tmacs-server-modpack.252464 (A little outdated, Stable Version)
