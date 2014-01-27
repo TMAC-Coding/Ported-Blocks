@@ -9,11 +9,15 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
+import net.tmachq.Ported_Blocks.Ported_Blocks;
 
 public class Alabaster_Ornate extends Block {
 
-    public Alabaster_Ornate(int par1, Material par2Material) {
-        super(par1, par2Material);
+    public Alabaster_Ornate(int id) {
+    super(503, Material.rock);
+        this.setHardness(3.0F);
+        this.setStepSound(Block.soundStoneFootstep);
+        this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);
     }
     
     @Override
