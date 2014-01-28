@@ -3,7 +3,7 @@ Ported-Blocks
 This mod is still a WIP with some pre-releases.
 
 This mod includes ports of blocks from MoreMaterials Content Packs.
-MoreMaterials is a Spoutcraft Plugin located at: http://spoutcraft.org/resources/morematerials.3/
+MoreMaterials is a Spoutcraft Plugin located at: [MoreMaterials](http://spoutcraft.org/resources/morematerials.3/)
 
 Ported-Blocks Wiki
 ==================
