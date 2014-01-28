@@ -10,7 +10,7 @@ import net.tmachq.Ported_Blocks.Ported_Blocks;
 public class Azurite_Smooth extends Block {
 
     public Azurite_Smooth(int id) {
-    super(509, Material.rock);
+    super(id, Material.rock);
         this.setHardness(3.0F);
         this.setStepSound(Block.soundStoneFootstep);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);

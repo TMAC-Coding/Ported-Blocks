@@ -56,7 +56,7 @@ public class Ported_Blocks_Config {
         AlabasterID = config.getBlock("Alabaster", 500).getInt();
         Alabaster_BrickID = config.getBlock("Alabaster_Brick", 501).getInt();
         Alabaster_OrnateID = config.getBlock("Alabaster_Ornate", 502).getInt();
-        Alabaster_SmoothID = config.getBlock("Alabaster_Brick", 503).getInt();
+        Alabaster_SmoothID = config.getBlock("Alabaster_Smooth", 503).getInt();
         Alabaster_TileID = config.getBlock("Alabaster_Tile", 504).getInt();
         
         AzuriteID = config.getBlock("Azurite", 505).getInt();

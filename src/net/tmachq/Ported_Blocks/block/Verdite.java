@@ -10,7 +10,7 @@ import net.tmachq.Ported_Blocks.Ported_Blocks;
 public class Verdite extends Block {
 
     public Verdite(int id) {
-    super(526, Material.rock);
+    super(id, Material.rock);
         this.setHardness(3.0F);
         this.setStepSound(Block.soundStoneFootstep);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);

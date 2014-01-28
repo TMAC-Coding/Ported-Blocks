@@ -10,7 +10,7 @@ import net.tmachq.Ported_Blocks.Ported_Blocks;
 public class Sanguinite_Smooth extends Block {
 
     public Sanguinite_Smooth(int id) {
-    super(519, Material.rock);
+    super(id, Material.rock);
         this.setHardness(3.0F);
         this.setStepSound(Block.soundStoneFootstep);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);

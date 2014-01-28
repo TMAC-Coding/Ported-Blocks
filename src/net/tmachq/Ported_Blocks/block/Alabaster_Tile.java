@@ -14,7 +14,7 @@ import net.tmachq.Ported_Blocks.Ported_Blocks;
 public class Alabaster_Tile extends Block {
 
     public Alabaster_Tile(int id) {
-    super(505, Material.rock);
+    super(id, Material.rock);
         this.setHardness(3.0F);
         this.setStepSound(Block.soundStoneFootstep);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);

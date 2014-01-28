@@ -14,7 +14,7 @@ import net.tmachq.Ported_Blocks.Ported_Blocks;
 public class Voidstone_Smooth extends Block {
 
     public Voidstone_Smooth(int id) {
-    super(534, Material.rock);
+    super(id, Material.rock);
         this.setHardness(3.0F);
         this.setStepSound(Block.soundStoneFootstep);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);
