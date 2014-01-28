@@ -1,12 +1,15 @@
 Ported-Blocks
 =============
+This mod is still a WIP with some pre-releases.
 
-This pack includes ports of blocks from MoreMaterials Content Packs.
+This mod includes ports of blocks from MoreMaterials Content Packs.
 MoreMaterials is a Spoutcraft Plugin located at: http://spoutcraft.org/resources/morematerials.3/
 
-Content Packs Currently included:
-==================================
-[CEP] [RPG] Mason (35 Base Blocks)- Created by Kaynide - Located at: http://spoutcraft.org/resources/mason.136/
+Ported-Blocks Wiki
+==================
+We now have wiki in the works. This wiki will include the entirity of content within the releases of the mod.
+
+The wiki is located at: https://github.com/TMAC-Kratos/Ported-Blocks/wiki
 
 How to get:
 ===========
