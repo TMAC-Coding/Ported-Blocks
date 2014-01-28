@@ -17,4 +17,4 @@ You can either compile it yourself (Latest Version, V 0.3) (Must use forge for 1
 
 or you can get it through [Releases](https://github.com/TMAC-Kratos/Ported-Blocks/releases) on github (A little outdate, Stable Version, V 0.3).
 
-If you want the mod pack this is included in please feel free to get it at: [TMAC's Server Modpack] (http://www.technicpack.net/modpack/details/tmacs-server-modpack.252464) (A little outdated, Stable Version, V 0.2)
+If you want a mod pack this is included in please feel free to get it at: [TMAC's Server Modpack] (http://www.technicpack.net/modpack/details/tmacs-server-modpack.252464) (A little outdated, Stable Version, V 0.2)
