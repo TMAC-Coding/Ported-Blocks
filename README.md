@@ -7,7 +7,7 @@ MoreMaterials is a Spoutcraft Plugin located at: [MoreMaterials](http://spoutcra
 
 Ported-Blocks Wiki
 ==================
-We now have wiki in the works. This wiki will include the entirity of content within the releases of the mod.
+We now have a wiki. The wiki includes the entirity of content within the releases of the mod.
 
 The wiki is located at: [Wiki](https://github.com/TMAC-Kratos/Ported-Blocks/wiki)
 
