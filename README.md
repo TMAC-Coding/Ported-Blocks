@@ -13,8 +13,8 @@ The wiki is located at: [Wiki](https://github.com/TMAC-Kratos/Ported-Blocks/wiki
 
 How to get:
 ===========
-You can either compile it yourself (Latest Version) (Must use forge for 1.6.4, have not tested with forge for 1.7.x)
+You can either compile it yourself (Latest Version, V 0.3) (Must use forge for 1.6.4, have not tested with forge for 1.7.x)
 
-or you can get it through [releases](https://github.com/TMAC-Kratos/Ported-Blocks/releases) on github (A little outdate, Stable Version).
+or you can get it through [releases](https://github.com/TMAC-Kratos/Ported-Blocks/releases) on github (A little outdate, Stable Version, V 0.3).
 
-If you want the mod pack this is included in please feel free to get it at: [TMAC's Server Modpack] (http://www.technicpack.net/modpack/details/tmacs-server-modpack.252464) (A little outdated, Stable Version)
+If you want the mod pack this is included in please feel free to get it at: [TMAC's Server Modpack] (http://www.technicpack.net/modpack/details/tmacs-server-modpack.252464) (A little outdated, Stable Version, V 0.2)
