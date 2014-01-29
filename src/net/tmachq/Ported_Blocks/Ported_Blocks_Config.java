@@ -48,6 +48,9 @@ public class Ported_Blocks_Config {
     public static int Voidstone_SmoothID;
     public static int Voidstone_TileID;
     
+    public static int TileEntityBarStoolID;
+    public static int TileEntityAlabasterColumnID;
+    
     public static void loadConfig(FMLPreInitializationEvent event) {
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
         
@@ -94,6 +97,9 @@ public class Ported_Blocks_Config {
         Voidstone_OrnateID = config.getBlock("Voidstone_Ornate", 532).getInt();
         Voidstone_SmoothID = config.getBlock("Voidstone_Smooth", 533).getInt();
         Voidstone_TileID = config.getBlock("Voidstone_Tile", 534).getInt();
+        
+        TileEntityBarStoolID = config.getBlock("TileEntityBarStool", 540).getInt();
+        TileEntityAlabasterColumnID = config.getBlock("TileEntityAlabasterColumn", 541).getInt();
         
         config.save();
     }
