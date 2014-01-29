@@ -5,7 +5,7 @@ This mod is still a WIP with some pre-releases.
 This mod includes ports of blocks from MoreMaterials Content Packs.
 MoreMaterials is a Spoutcraft Plugin located at: [MoreMaterials](http://spoutcraft.org/resources/morematerials.3/)
 
-Ported-Blocks Wiki
+Ported Blocks Wiki
 ==================
 We now have a wiki. The wiki includes the entirety of content within the releases of the mod.
 
