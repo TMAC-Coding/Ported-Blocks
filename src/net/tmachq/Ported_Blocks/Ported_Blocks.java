@@ -29,7 +29,7 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid="Ported_Blocks", name="Ported Blocks", version="0.4")
+@Mod(modid="Ported_Blocks", name="Ported Blocks", version="0.4.1")
 @NetworkMod(clientSideRequired=true, serverSideRequired=false)
 
 public class Ported_Blocks {
@@ -41,7 +41,7 @@ public class Ported_Blocks {
             serverSide="net.tmachq.Ported_Blocks.CommonProxy")
     public static CommonProxy proxy;
     
-    public static CreativeTabs Ported_Blocks_Tab = new CreativeTabs("Ported_Block_Tab") {
+    public static CreativeTabs Ported_Blocks_Tab = new CreativeTabs("Ported_Blocks_Tab") {
         public ItemStack getIconItemStack() {
             return new ItemStack(Alabaster, 1, 0);
         }

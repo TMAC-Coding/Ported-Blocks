@@ -13,6 +13,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.Icon;
 import net.minecraft.util.MathHelper;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.tmachq.Ported_Blocks.Ported_Blocks;
 import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityAlabasterColumnEntity;
@@ -49,15 +50,8 @@ public class TileEntityAlabasterColumn extends BlockContainer {
     }
     
     public void registerIcons(IconRegister icon) {
-        this.blockIcon = icon.registerIcon("Ported_Blocks:Alabaster_Column");
+        blockIcon = icon.registerIcon("ported_blocks:Alabaster_Column");
     }
     
-    @Override
-    public void onBlockPlacedBy(World world, int x, int y, int z, EntityLivingBase entityliving, ItemStack itemStack) {
-        int blockSet = world.getBlockMetadata(x, y, z) / 4;
-        int direction = MathHelper.floor_double((double)(entityliving.rotationYaw * 4.0F / 360.0F) + 2.5D) & 3;
-        int newMeta = (blockSet * 4) + direction;
-        world.setBlockMetadataWithNotify(x, y, z, newMeta, 0);
-    }
     
 }
