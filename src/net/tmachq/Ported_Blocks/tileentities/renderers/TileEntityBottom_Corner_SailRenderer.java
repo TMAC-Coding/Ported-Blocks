@@ -18,26 +18,41 @@ import net.minecraftforge.common.ForgeDirection;
 
 import org.lwjgl.opengl.GL11;
 
-import net.tmachq.Ported_Blocks.models.ColumnModel;
+import net.tmachq.Ported_Blocks.models.SailModel;
 
-
-public class TileEntityAlabasterColumnRenderer extends TileEntitySpecialRenderer {
+public class TileEntityBottom_Corner_SailRenderer extends TileEntitySpecialRenderer {
     
-    private final ColumnModel model;
+    private final SailModel model;
     
     
-    public TileEntityAlabasterColumnRenderer() {
-        this.model = new ColumnModel();
+    public TileEntityBottom_Corner_SailRenderer() {
+        this.model = new SailModel();
 }
     
     @Override
     public void renderTileEntityAt(TileEntity te, double x, double y, double z, float scale) {
+        int rotation = 180;
+        switch (te.getBlockMetadata() % 4) {
+            case 0:
+                rotation = 0;
+                break;
+            case 3:
+                rotation = 90;
+                break;
+            case 2:
+                rotation = 180;
+                break;
+            case 1:
+                rotation = 270;
+                break;
+        }
         
             GL11.glPushMatrix();
+            int i = te.getBlockMetadata();
             
             GL11.glTranslatef((float) x + 0.5F, (float) y + 1.5F, (float) z + 0.5F);
-            GL11.glRotatef(180F, 0.0F, 1.0F, 0.0F);
-            Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation("ported_blocks:textures/texturemaps/Alabaster_Column_HD.png"));                 
+            GL11.glRotatef(rotation, 0.0F, 1.0F, 0.0F);
+            Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation("Ported_Blocks:textures/texturemaps/Bottom-Corner_Sail_HD.png"));                 
             GL11.glScalef(1.0F, -1F, -1F);
             model.render((Entity)null, 0.0F, 0.0F, -0.1F, 0.0F, 0.0F, 0.0625F);
             GL11.glPopMatrix();

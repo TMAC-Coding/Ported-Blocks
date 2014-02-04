@@ -49,7 +49,30 @@ public class Ported_Blocks_Config {
     public static int Voidstone_TileID;
     
     public static int TileEntityBarStoolID;
+    
+    public static int TileEntityBottom_Middle_SailID;
+    public static int TileEntityBottom_Corner_SailID;
+    public static int TileEntitySailID;
+    
     public static int TileEntityAlabasterColumnID;
+    public static int TileEntitySandStoneColumnDokuID;
+    public static int TileEntitySanguiniteColumnID;
+    public static int TileEntityStoneColumnDokuID;
+    
+    public static int Alabaster_StairsID;
+    public static int Alabaster_Brick_StairsID;
+    public static int Azurite_StairsID;
+    public static int Azurite_Brick_StairsID;
+    public static int SandStone_Stairs_DokuID;
+    public static int SandStone_Brick_Stairs_DokuID;
+    public static int Sanguinite_StairsID;
+    public static int Sanguinite_Brick_StairsID;
+    public static int Stone_Stairs_DokuID;
+    public static int Stone_Brick_Stairs_DokuID;
+    public static int Verdite_StairsID;
+    public static int Verdite_Brick_StairsID;
+    public static int Voidstone_StairsID;
+    public static int Voidstone_Brick_StairsID;
     
     public static void loadConfig(FMLPreInitializationEvent event) {
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
@@ -99,7 +122,30 @@ public class Ported_Blocks_Config {
         Voidstone_TileID = config.getBlock("Voidstone_Tile", 534).getInt();
         
         TileEntityBarStoolID = config.getBlock("TileEntityBarStool", 540).getInt();
-        TileEntityAlabasterColumnID = config.getBlock("TileEntityAlabasterColumn", 541).getInt();
+        
+        TileEntityBottom_Middle_SailID = config.getBlock("TileEntityBottom_Middle_Sail", 541).getInt();
+        TileEntityBottom_Corner_SailID = config.getBlock("TileEntityBottom_Corner_Sail", 542).getInt();
+        TileEntitySailID = config.getBlock("TileEntitySail", 543).getInt();
+        
+        TileEntityAlabasterColumnID = config.getBlock("TileEntityAlabasterColumn", 544).getInt();
+        TileEntitySandStoneColumnDokuID = config.getBlock("TileEntitySandStoneColumnDoku", 545).getInt();
+        TileEntitySanguiniteColumnID = config.getBlock("TileEntitySanguiniteColumn", 546).getInt();
+        TileEntityStoneColumnDokuID = config.getBlock("TileEntityStoneColumnDoku", 547).getInt();
+        
+        Alabaster_StairsID = config.getBlock("Alabaster_Stairs", 550).getInt();
+        Alabaster_Brick_StairsID = config.getBlock("Alabaster_Brick_Stairs", 551).getInt();
+        Azurite_StairsID = config.getBlock("Azurite_Stairs", 552).getInt();
+        Azurite_Brick_StairsID = config.getBlock("Azurite_Brick_Stairs", 553).getInt();
+        SandStone_Stairs_DokuID = config.getBlock("SandStone_Stairs_Doku", 554).getInt();
+        SandStone_Brick_Stairs_DokuID = config.getBlock("SandStone_Brick_Stairs_Doku", 555).getInt();
+        Sanguinite_StairsID = config.getBlock("Sanguinite_Stairs", 556).getInt();
+        Sanguinite_Brick_StairsID = config.getBlock("Sanguinite_Brick_Stairs", 557).getInt();
+        Stone_Stairs_DokuID = config.getBlock("Stone_Stairs_Doku", 558).getInt();
+        Stone_Brick_Stairs_DokuID = config.getBlock("Stone_Brick_Stairs_Doku", 559).getInt();
+        Verdite_StairsID = config.getBlock("Verdite_Stairs", 560).getInt();
+        Verdite_Brick_StairsID = config.getBlock("Verdite_Brick_Stairs", 561).getInt();
+        Voidstone_StairsID = config.getBlock("Voidstone_Stairs", 562).getInt();
+        Voidstone_Brick_StairsID = config.getBlock("Voidstone_Brick_Stairs", 562).getInt();
         
         config.save();
     }

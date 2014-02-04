@@ -21,12 +21,12 @@ import org.lwjgl.opengl.GL11;
 import net.tmachq.Ported_Blocks.models.ColumnModel;
 
 
-public class TileEntityAlabasterColumnRenderer extends TileEntitySpecialRenderer {
+public class TileEntityStoneColumnDokuRenderer extends TileEntitySpecialRenderer {
     
     private final ColumnModel model;
     
     
-    public TileEntityAlabasterColumnRenderer() {
+    public TileEntityStoneColumnDokuRenderer() {
         this.model = new ColumnModel();
 }
     
@@ -37,7 +37,7 @@ public class TileEntityAlabasterColumnRenderer extends TileEntitySpecialRenderer
             
             GL11.glTranslatef((float) x + 0.5F, (float) y + 1.5F, (float) z + 0.5F);
             GL11.glRotatef(180F, 0.0F, 1.0F, 0.0F);
-            Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation("ported_blocks:textures/texturemaps/Alabaster_Column_HD.png"));                 
+            Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation("ported_blocks:textures/texturemaps/Stone_Column_(Doku)_HD.png"));                 
             GL11.glScalef(1.0F, -1F, -1F);
             model.render((Entity)null, 0.0F, 0.0F, -0.1F, 0.0F, 0.0F, 0.0625F);
             GL11.glPopMatrix();

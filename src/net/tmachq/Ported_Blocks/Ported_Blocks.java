@@ -13,6 +13,7 @@ import net.minecraftforge.event.ForgeSubscribe;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.tmachq.Ported_Blocks.blocks.*;
+import net.tmachq.Ported_Blocks.stairs.*;
 import net.tmachq.Ported_Blocks.tileentities.blocks.*;
 import net.tmachq.Ported_Blocks.tileentities.entities.*;
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -90,7 +91,30 @@ public class Ported_Blocks {
     public static Block Voidstone_Tile;
     
     public static Block TileEntityBarStool;
+    
+    public static Block TileEntityBottom_Middle_Sail;
+    public static Block TileEntityBottom_Corner_Sail;
+    public static Block TileEntitySail;
+    
     public static Block TileEntityAlabasterColumn;
+    public static Block TileEntitySandStoneColumnDoku;
+    public static Block TileEntitySanguiniteColumn;
+    public static Block TileEntityStoneColumnDoku;
+    
+    public static Block Alabaster_Stairs;
+    public static Block Alabaster_Brick_Stairs;
+    public static Block Azurite_Stairs;
+    public static Block Azurite_Brick_Stairs;
+    public static Block SandStone_Stairs_Doku;
+    public static Block SandStone_Brick_Stairs_Doku;
+    public static Block Sanguinite_Stairs;
+    public static Block Sanguinite_Brick_Stairs;
+    public static Block Stone_Stairs_Doku;
+    public static Block Stone_Brick_Stairs_Doku;
+    public static Block Verdite_Stairs;
+    public static Block Verdite_Brick_Stairs;
+    public static Block Voidstone_Stairs;
+    public static Block Voidstone_Brick_Stairs;
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
@@ -143,7 +167,30 @@ public class Ported_Blocks {
         Voidstone_Tile = new Voidstone_Tile(config.Voidstone_TileID).setUnlocalizedName("Voidstone_Tile");
         
         TileEntityBarStool = new TileEntityBarStool(config.TileEntityBarStoolID).setUnlocalizedName("TileEntityBarStool");
+        
+        TileEntityBottom_Middle_Sail = new TileEntityBottom_Middle_Sail(config.TileEntityBottom_Middle_SailID).setUnlocalizedName("TileEntityBottom_Middle_Sail");
+        TileEntityBottom_Corner_Sail = new TileEntityBottom_Corner_Sail(config.TileEntityBottom_Corner_SailID).setUnlocalizedName("TileEntityBottom_Corner_Sail");
+        TileEntitySail = new TileEntitySail(config.TileEntitySailID).setUnlocalizedName("TileEntitySail");
+        
         TileEntityAlabasterColumn = new TileEntityAlabasterColumn(config.TileEntityAlabasterColumnID).setUnlocalizedName("TileEntityAlabasterColumn");
+        TileEntitySandStoneColumnDoku = new TileEntitySandStoneColumnDoku(config.TileEntitySandStoneColumnDokuID).setUnlocalizedName("TileEntitySandStoneColumnDoku");
+        TileEntitySanguiniteColumn = new TileEntitySanguiniteColumn(config.TileEntitySanguiniteColumnID).setUnlocalizedName("TileEntitySanguiniteColumn");
+        TileEntityStoneColumnDoku = new TileEntityStoneColumnDoku(config.TileEntityStoneColumnDokuID).setUnlocalizedName("TileEntityStoneColumnDoku");
+        
+        Alabaster_Stairs= new Alabaster_Stairs(config.Alabaster_StairsID, Alabaster, 0).setUnlocalizedName("Alabaster_Stairs");
+        Alabaster_Brick_Stairs= new Alabaster_Brick_Stairs(config.Alabaster_Brick_StairsID, Alabaster_Brick, 0).setUnlocalizedName("Alabaster_Brick_Stairs");
+        Azurite_Stairs= new Azurite_Stairs(config.Azurite_StairsID, Azurite, 0).setUnlocalizedName("Azurite_Stairs");
+        Azurite_Brick_Stairs= new Azurite_Brick_Stairs(config.Azurite_Brick_StairsID, Azurite_Brick, 0).setUnlocalizedName("Azurite_Brick_Stairs");
+        SandStone_Stairs_Doku= new SandStone_Stairs_Doku(config.SandStone_Stairs_DokuID, SandStone_Doku, 0).setUnlocalizedName("SandStone_Stairs_Doku");
+        SandStone_Brick_Stairs_Doku= new SandStone_Brick_Stairs_Doku(config.SandStone_Brick_Stairs_DokuID, SandStone_Brick_Doku, 0).setUnlocalizedName("SandStone_Brick_Stairs_Doku");
+        Sanguinite_Stairs= new Sanguinite_Stairs(config.Sanguinite_StairsID, Sanguinite, 0).setUnlocalizedName("Sanguinite_Stairs");
+        Sanguinite_Brick_Stairs= new Sanguinite_Brick_Stairs(config.Sanguinite_Brick_StairsID, Sanguinite_Brick, 0).setUnlocalizedName("Sanguinite_Brick_Stairs");
+        Stone_Stairs_Doku= new Stone_Stairs_Doku(config.Stone_Stairs_DokuID, Stone_Doku, 0).setUnlocalizedName("Stone_Stairs_Doku");
+        Stone_Brick_Stairs_Doku= new Stone_Brick_Stairs_Doku(config.Stone_Brick_Stairs_DokuID, Stone_Brick_Doku, 0).setUnlocalizedName("Stone_Brick_Stairs_Doku");
+        Verdite_Stairs= new Verdite_Stairs(config.Verdite_StairsID, Verdite, 0).setUnlocalizedName("Verdite_Stairs");
+        Verdite_Brick_Stairs= new Verdite_Brick_Stairs(config.Verdite_Brick_StairsID, Verdite_Brick, 0).setUnlocalizedName("Verdite_Brick_Stairs");
+        Voidstone_Stairs= new Voidstone_Stairs(config.Voidstone_StairsID, Voidstone, 0).setUnlocalizedName("Voidstone_Stairs");
+        Voidstone_Brick_Stairs= new Voidstone_Brick_Stairs(config.Voidstone_Brick_StairsID, Voidstone_Brick, 0).setUnlocalizedName("Voidstone__Brick_Stairs");
     }
     
     

@@ -13,25 +13,25 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.Icon;
 import net.minecraft.util.MathHelper;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.tmachq.Ported_Blocks.Ported_Blocks;
-import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityBarStoolEntity;
+import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityBottom_Middle_SailEntity;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class TileEntityBarStool extends BlockContainer {
+public class TileEntityBottom_Middle_Sail extends BlockContainer {
     
-    public TileEntityBarStool(int id) {
+    public TileEntityBottom_Middle_Sail(int id) {
         super(id, Material.wood);
         this.setHardness(3.0F);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);
         this.setLightOpacity(0);
-        this.setBlockBounds(.15F, 0F, .15F, .85F, .71F, .85F);
     }
     
     @Override
     public TileEntity createNewTileEntity(World world) {
-            return new TileEntityBarStoolEntity();
+            return new TileEntityBottom_Middle_SailEntity();
     }
     
     @Override
@@ -59,5 +59,19 @@ public class TileEntityBarStool extends BlockContainer {
         int newMeta = (blockSet * 4) + direction;
         world.setBlockMetadataWithNotify(x, y, z, newMeta, 0);
     }
+    
+    public void setBlockBoundsBasedOnState(IBlockAccess block, int x, int y, int z) {
+        int meta = block.getBlockMetadata(x, y, z);
+        if (meta == 0) {
+            this.setBlockBounds(0F, 0F, .47F, 1F, 1F, .53F);
+        } else if (meta == 1) {
+            this.setBlockBounds(.47F, 0F, 0F, .53F, 1F, 1F);
+        } else if (meta == 2) {
+            this.setBlockBounds(0F, 0F, .47F, 1F, 1F, .53F);
+        } else
+            this.setBlockBounds(.47F, 0F, 0F, .53F, 1F, 1F);
+    }
+    
+    
     
 }

@@ -49,7 +49,30 @@ public class registerblocks {
         GameRegistry.registerBlock(Ported_Blocks.Voidstone_Tile, "Voidstone_Tile");
         
         GameRegistry.registerBlock(Ported_Blocks.TileEntityBarStool, "TileEntityBarStool");
+        
+        GameRegistry.registerBlock(Ported_Blocks.TileEntityBottom_Middle_Sail, "TileEntityBottom_Middle_Sail");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntityBottom_Corner_Sail, "TileEntityBottom_Corner_Sail");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntitySail, "TileEntitySail");
+        
         GameRegistry.registerBlock(Ported_Blocks.TileEntityAlabasterColumn, "TileEntityAlabasterColumn");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntitySandStoneColumnDoku, "TileEntitySandStoneColumnDoku");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntitySanguiniteColumn, "TileEntitySanguiniteColumn");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntityStoneColumnDoku, "TileEntityStoneColumnDoku");
+        
+        GameRegistry.registerBlock(Ported_Blocks.Alabaster_Stairs, "Alabaster_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Alabaster_Brick_Stairs, "Alabaster_Brick_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Azurite_Stairs, "Azurite_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Azurite_Brick_Stairs, "Azurite_Brick_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.SandStone_Stairs_Doku, "SandStone_Stairs_Doku");
+        GameRegistry.registerBlock(Ported_Blocks.SandStone_Brick_Stairs_Doku, "SandStone_Brick_Stairs_Doku");
+        GameRegistry.registerBlock(Ported_Blocks.Sanguinite_Stairs, "Sanguinite_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Sanguinite_Brick_Stairs, "Sanguinite_Brick_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Stone_Stairs_Doku, "Stone_Stairs_Doku");
+        GameRegistry.registerBlock(Ported_Blocks.Stone_Brick_Stairs_Doku, "Stone_Brick_Stairs_Doku");
+        GameRegistry.registerBlock(Ported_Blocks.Verdite_Stairs, "Verdite_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Verdite_Brick_Stairs, "Verdite_Brick_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Voidstone_Stairs, "Voidstone_Stairs");
+        GameRegistry.registerBlock(Ported_Blocks.Voidstone_Brick_Stairs, "Voidstone_Brick_Stairs");
     }
 
 }

@@ -17,12 +17,13 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.tmachq.Ported_Blocks.Ported_Blocks;
 import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityAlabasterColumnEntity;
+import net.tmachq.Ported_Blocks.tileentities.entities.TileEntitySandStoneColumnDokuEntity;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class TileEntityAlabasterColumn extends BlockContainer {
+public class TileEntitySandStoneColumnDoku extends BlockContainer {
     
-    public TileEntityAlabasterColumn(int id) {
+    public TileEntitySandStoneColumnDoku(int id) {
         super(id, Material.rock);
         this.setHardness(3.0F);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);
@@ -32,7 +33,7 @@ public class TileEntityAlabasterColumn extends BlockContainer {
     
     @Override
     public TileEntity createNewTileEntity(World world) {
-            return new TileEntityAlabasterColumnEntity();
+            return new TileEntitySandStoneColumnDokuEntity();
     }
     
     @Override
@@ -53,5 +54,5 @@ public class TileEntityAlabasterColumn extends BlockContainer {
         this.blockIcon = icon.registerIcon("ported_blocks:Alabaster_Column");
     }
     
-    
+
 }

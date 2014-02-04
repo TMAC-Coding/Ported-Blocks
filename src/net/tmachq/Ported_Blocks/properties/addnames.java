@@ -49,7 +49,30 @@ public class addnames {
         LanguageRegistry.addName(Ported_Blocks.Voidstone_Tile, "Voidstone Tile");
         
         LanguageRegistry.addName(Ported_Blocks.TileEntityBarStool, "Bar Stool");
+        
+        LanguageRegistry.addName(Ported_Blocks.TileEntityBottom_Middle_Sail, "Bottom-Middle Sail");
+        LanguageRegistry.addName(Ported_Blocks.TileEntityBottom_Corner_Sail, "Bottom-Corner Sail");
+        LanguageRegistry.addName(Ported_Blocks.TileEntitySail, "Sail");
+        
         LanguageRegistry.addName(Ported_Blocks.TileEntityAlabasterColumn, "Alabaster Column");
+        LanguageRegistry.addName(Ported_Blocks.TileEntitySandStoneColumnDoku, "SandStone Column (Doku)");
+        LanguageRegistry.addName(Ported_Blocks.TileEntitySanguiniteColumn, "Sanguinite Column");
+        LanguageRegistry.addName(Ported_Blocks.TileEntityStoneColumnDoku, "Stone Column (Doku)");
+        
+        LanguageRegistry.addName(Ported_Blocks.Alabaster_Stairs, "Alabaster Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Alabaster_Brick_Stairs, "Alabaster Brick Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Azurite_Stairs, "Azurite Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Azurite_Brick_Stairs, "Azurite Brick Stairs");
+        LanguageRegistry.addName(Ported_Blocks.SandStone_Stairs_Doku, "SandStone Stairs (Doku)");
+        LanguageRegistry.addName(Ported_Blocks.SandStone_Brick_Stairs_Doku, "SandStone Brick Stairs (Doku)");
+        LanguageRegistry.addName(Ported_Blocks.Sanguinite_Stairs, "Sanguinite Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Sanguinite_Brick_Stairs, "Sanguinite Brick Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Stone_Stairs_Doku, "Stone Stairs (Doku)");
+        LanguageRegistry.addName(Ported_Blocks.Stone_Brick_Stairs_Doku, "Stone Brick Stairs (Doku)");
+        LanguageRegistry.addName(Ported_Blocks.Verdite_Stairs, "Verdite Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Verdite_Brick_Stairs, "Verdite Brick Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Voidstone_Stairs, "Voidstone Stairs");
+        LanguageRegistry.addName(Ported_Blocks.Voidstone_Brick_Stairs, "Voidstone Brick Stairs");
     }
 
 }

@@ -16,13 +16,13 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.tmachq.Ported_Blocks.Ported_Blocks;
-import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityAlabasterColumnEntity;
+import net.tmachq.Ported_Blocks.tileentities.entities.TileEntitySanguiniteColumnEntity;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class TileEntityAlabasterColumn extends BlockContainer {
+public class TileEntitySanguiniteColumn extends BlockContainer {
     
-    public TileEntityAlabasterColumn(int id) {
+    public TileEntitySanguiniteColumn(int id) {
         super(id, Material.rock);
         this.setHardness(3.0F);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);
@@ -32,7 +32,7 @@ public class TileEntityAlabasterColumn extends BlockContainer {
     
     @Override
     public TileEntity createNewTileEntity(World world) {
-            return new TileEntityAlabasterColumnEntity();
+            return new TileEntitySanguiniteColumnEntity();
     }
     
     @Override
