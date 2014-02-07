@@ -55,9 +55,12 @@ public class addnames {
         LanguageRegistry.addName(Ported_Blocks.TileEntitySail, "Sail");
         
         LanguageRegistry.addName(Ported_Blocks.TileEntityAlabasterColumn, "Alabaster Column");
+        LanguageRegistry.addName(Ported_Blocks.TileEntityAzuriteColumn, "Azurite Column");
         LanguageRegistry.addName(Ported_Blocks.TileEntitySandStoneColumnDoku, "SandStone Column (Doku)");
         LanguageRegistry.addName(Ported_Blocks.TileEntitySanguiniteColumn, "Sanguinite Column");
         LanguageRegistry.addName(Ported_Blocks.TileEntityStoneColumnDoku, "Stone Column (Doku)");
+        LanguageRegistry.addName(Ported_Blocks.TileEntityVerditeColumn, "Verdite Column");
+        LanguageRegistry.addName(Ported_Blocks.TileEntityVoidstoneColumn, "Voidstone Column");
         
         LanguageRegistry.addName(Ported_Blocks.Alabaster_Stairs, "Alabaster Stairs");
         LanguageRegistry.addName(Ported_Blocks.Alabaster_Brick_Stairs, "Alabaster Brick Stairs");

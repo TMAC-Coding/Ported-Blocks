@@ -16,8 +16,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.tmachq.Ported_Blocks.Ported_Blocks;
-import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityAlabasterColumnEntity;
-import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityStoneColumnDokuEntity;
+import net.tmachq.Ported_Blocks.tileentities.entities.*;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
@@ -51,7 +50,7 @@ public class TileEntityStoneColumnDoku extends BlockContainer {
     }
     
     public void registerIcons(IconRegister icon) {
-        this.blockIcon = icon.registerIcon("ported_blocks:Alabaster_Column");
+        this.blockIcon = icon.registerIcon("ported_blocks:Stone_Column_(Doku)");
     }
     
     

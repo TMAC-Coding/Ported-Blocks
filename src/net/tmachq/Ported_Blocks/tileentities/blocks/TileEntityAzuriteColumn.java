@@ -20,9 +20,9 @@ import net.tmachq.Ported_Blocks.tileentities.entities.*;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class TileEntitySandStoneColumnDoku extends BlockContainer {
+public class TileEntityAzuriteColumn extends BlockContainer {
     
-    public TileEntitySandStoneColumnDoku(int id) {
+    public TileEntityAzuriteColumn(int id) {
         super(id, Material.rock);
         this.setHardness(3.0F);
         this.setCreativeTab(Ported_Blocks.Ported_Blocks_Tab);
@@ -32,7 +32,7 @@ public class TileEntitySandStoneColumnDoku extends BlockContainer {
     
     @Override
     public TileEntity createNewTileEntity(World world) {
-            return new TileEntitySandStoneColumnDokuEntity();
+            return new TileEntityAzuriteColumnEntity();
     }
     
     @Override
@@ -50,8 +50,8 @@ public class TileEntitySandStoneColumnDoku extends BlockContainer {
     }
     
     public void registerIcons(IconRegister icon) {
-        this.blockIcon = icon.registerIcon("ported_blocks:Sandstone_Column_(Doku)");
+        this.blockIcon = icon.registerIcon("ported_blocks:Azurite_Column");
     }
     
-
+    
 }

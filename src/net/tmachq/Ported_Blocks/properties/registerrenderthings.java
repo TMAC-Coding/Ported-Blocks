@@ -15,9 +15,12 @@ public class registerrenderthings {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySailEntity.class, new TileEntitySailRenderer());
         
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityAlabasterColumnEntity.class, new TileEntityAlabasterColumnRenderer());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityAzuriteColumnEntity.class, new TileEntityAzuriteColumnRenderer());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySandStoneColumnDokuEntity.class, new TileEntitySandStoneColumnDokuRenderer());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySanguiniteColumnEntity.class, new TileEntitySanguiniteColumnRenderer());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityStoneColumnDokuEntity.class, new TileEntityStoneColumnDokuRenderer());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityVerditeColumnEntity.class, new TileEntityVerditeColumnRenderer());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityVoidstoneColumnEntity.class, new TileEntityVoidstoneColumnRenderer());
    
     }
 

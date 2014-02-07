@@ -16,7 +16,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.tmachq.Ported_Blocks.Ported_Blocks;
-import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityBottom_Corner_SailEntity;
+import net.tmachq.Ported_Blocks.tileentities.entities.*;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
@@ -49,7 +49,7 @@ public class TileEntityBottom_Corner_Sail extends BlockContainer {
     }
     
     public void registerIcons(IconRegister icon) {
-        this.blockIcon = icon.registerIcon("Ported_Blocks:BarStool");
+        this.blockIcon = icon.registerIcon("Ported_Blocks:Bottom-Corner_Sail");
     }
     
     @Override

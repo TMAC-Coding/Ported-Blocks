@@ -16,7 +16,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.tmachq.Ported_Blocks.Ported_Blocks;
-import net.tmachq.Ported_Blocks.tileentities.entities.TileEntityAlabasterColumnEntity;
+import net.tmachq.Ported_Blocks.tileentities.entities.*;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 

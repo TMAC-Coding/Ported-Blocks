@@ -14,9 +14,12 @@ public class registertileentity {
         GameRegistry.registerTileEntity(TileEntitySailEntity.class, "TileEntitySail");
        
         GameRegistry.registerTileEntity(TileEntityAlabasterColumnEntity.class, "TileEntityAlabasterColumn");
+        GameRegistry.registerTileEntity(TileEntityAzuriteColumnEntity.class, "TileEntityAzuriteColumn");
         GameRegistry.registerTileEntity(TileEntitySandStoneColumnDokuEntity.class, "TileEntitySandStoneColumnDoku");
         GameRegistry.registerTileEntity(TileEntitySanguiniteColumnEntity.class, "TileEntitySanguiniteColumn");
         GameRegistry.registerTileEntity(TileEntityStoneColumnDokuEntity.class, "TileEntityStoneColumnDoku");
+        GameRegistry.registerTileEntity(TileEntityVerditeColumnEntity.class, "TileEntityVerditeColumn");
+        GameRegistry.registerTileEntity(TileEntityVoidstoneColumnEntity.class, "TileEntityVoidstoneColumn");
     
     }
 

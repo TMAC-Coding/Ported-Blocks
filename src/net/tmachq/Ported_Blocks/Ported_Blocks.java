@@ -30,7 +30,7 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid="Ported_Blocks", name="Ported Blocks", version="0.4.1")
+@Mod(modid="Ported_Blocks", name="Ported Blocks", version="0.5")
 @NetworkMod(clientSideRequired=true, serverSideRequired=false)
 
 public class Ported_Blocks {
@@ -97,9 +97,12 @@ public class Ported_Blocks {
     public static Block TileEntitySail;
     
     public static Block TileEntityAlabasterColumn;
+    public static Block TileEntityAzuriteColumn;
     public static Block TileEntitySandStoneColumnDoku;
     public static Block TileEntitySanguiniteColumn;
     public static Block TileEntityStoneColumnDoku;
+    public static Block TileEntityVerditeColumn;
+    public static Block TileEntityVoidstoneColumn;
     
     public static Block Alabaster_Stairs;
     public static Block Alabaster_Brick_Stairs;
@@ -173,9 +176,12 @@ public class Ported_Blocks {
         TileEntitySail = new TileEntitySail(config.TileEntitySailID).setUnlocalizedName("TileEntitySail");
         
         TileEntityAlabasterColumn = new TileEntityAlabasterColumn(config.TileEntityAlabasterColumnID).setUnlocalizedName("TileEntityAlabasterColumn");
+        TileEntityAzuriteColumn = new TileEntityAzuriteColumn(config.TileEntityAzuriteColumnID).setUnlocalizedName("TileEntityAzuriteColumn");
         TileEntitySandStoneColumnDoku = new TileEntitySandStoneColumnDoku(config.TileEntitySandStoneColumnDokuID).setUnlocalizedName("TileEntitySandStoneColumnDoku");
         TileEntitySanguiniteColumn = new TileEntitySanguiniteColumn(config.TileEntitySanguiniteColumnID).setUnlocalizedName("TileEntitySanguiniteColumn");
         TileEntityStoneColumnDoku = new TileEntityStoneColumnDoku(config.TileEntityStoneColumnDokuID).setUnlocalizedName("TileEntityStoneColumnDoku");
+        TileEntityVerditeColumn = new TileEntityVerditeColumn(config.TileEntityVerditeColumnID).setUnlocalizedName("TileEntityVerditeColumn");
+        TileEntityVoidstoneColumn = new TileEntityVoidstoneColumn(config.TileEntityVoidstoneColumnID).setUnlocalizedName("TileEntityVoidstoneColumn");
         
         Alabaster_Stairs= new Alabaster_Stairs(config.Alabaster_StairsID, Alabaster, 0).setUnlocalizedName("Alabaster_Stairs");
         Alabaster_Brick_Stairs= new Alabaster_Brick_Stairs(config.Alabaster_Brick_StairsID, Alabaster_Brick, 0).setUnlocalizedName("Alabaster_Brick_Stairs");

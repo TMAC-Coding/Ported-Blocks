@@ -55,9 +55,12 @@ public class registerblocks {
         GameRegistry.registerBlock(Ported_Blocks.TileEntitySail, "TileEntitySail");
         
         GameRegistry.registerBlock(Ported_Blocks.TileEntityAlabasterColumn, "TileEntityAlabasterColumn");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntityAzuriteColumn, "TileEntityAzuriteColumn");
         GameRegistry.registerBlock(Ported_Blocks.TileEntitySandStoneColumnDoku, "TileEntitySandStoneColumnDoku");
         GameRegistry.registerBlock(Ported_Blocks.TileEntitySanguiniteColumn, "TileEntitySanguiniteColumn");
         GameRegistry.registerBlock(Ported_Blocks.TileEntityStoneColumnDoku, "TileEntityStoneColumnDoku");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntityVerditeColumn, "TileEntityVerditeColumn");
+        GameRegistry.registerBlock(Ported_Blocks.TileEntityVoidstoneColumn, "TileEntityVoidstoneColumn");
         
         GameRegistry.registerBlock(Ported_Blocks.Alabaster_Stairs, "Alabaster_Stairs");
         GameRegistry.registerBlock(Ported_Blocks.Alabaster_Brick_Stairs, "Alabaster_Brick_Stairs");
