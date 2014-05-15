@@ -30,7 +30,7 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid="Ported_Blocks", name="Ported Blocks", version="0.5")
+@Mod(modid="Ported_Blocks", name="Ported Blocks", version="0.5.1")
 @NetworkMod(clientSideRequired=true, serverSideRequired=false)
 
 public class Ported_Blocks {

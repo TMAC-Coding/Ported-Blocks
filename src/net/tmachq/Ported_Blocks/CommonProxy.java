@@ -5,7 +5,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fluids.FluidContainerRegistry;
 import net.minecraftforge.fluids.FluidRegistry;
-import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.tmachq.*;
@@ -21,9 +20,6 @@ import net.tmachq.Ported_Blocks.tileentities.blocks.*;
 
 public class CommonProxy {
     
-public void registerRenderThings() {
-    registerrenderthings.registerRenderThings();
-}
     
     public void registerBlocks() {
         registerblocks.registerBlocks();    
@@ -48,5 +44,10 @@ public void registerRenderThings() {
     public void registerRenderers() {
         
     }
+
+    public void registerRenderThings() {
+        
+    }
+
 
 }

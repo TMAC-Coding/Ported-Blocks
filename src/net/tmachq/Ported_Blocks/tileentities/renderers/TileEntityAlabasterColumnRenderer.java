@@ -53,6 +53,6 @@ public class TileEntityAlabasterColumnRenderer extends TileEntitySpecialRenderer
         tess.setColorOpaque_F(brightness, brightness, brightness);
         OpenGlHelper.setLightmapTextureCoords(OpenGlHelper.lightmapTexUnit,  (float) modulousModifier,  divModifier);
     }
-    
+
 
 }

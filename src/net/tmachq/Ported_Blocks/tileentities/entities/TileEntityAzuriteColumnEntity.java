@@ -4,4 +4,9 @@ import net.minecraft.tileentity.TileEntity;
 
 public class TileEntityAzuriteColumnEntity extends TileEntity {
 
+    @Override
+    public boolean canUpdate() {
+        return false;
+    }
+    
 }

@@ -49,7 +49,6 @@ public class TileEntityBottom_Corner_SailRenderer extends TileEntitySpecialRende
         
             GL11.glPushMatrix();
             int i = te.getBlockMetadata();
-            
             GL11.glTranslatef((float) x + 0.5F, (float) y + 1.5F, (float) z + 0.5F);
             GL11.glRotatef(rotation, 0.0F, 1.0F, 0.0F);
             Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation("Ported_Blocks:textures/texturemaps/Bottom-Corner_Sail_HD.png"));                 
